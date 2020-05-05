@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>nz.net.osnz.composite</groupId>
+    <artifactId>composite-spring-parent</artifactId>
+    <version>5.21-SNAPSHOT</version>
+    <relativePath>../composite-spring-parent</relativePath>
+  </parent>
+
+  <artifactId>composite-spring-web</artifactId>
+  <version>5.21-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>composite-spring-web</name>
+  <description>Collection of the standard spring web dependencies</description>
+  <url>https://github.com/OpenSourceNZ/composite-spring-reactor</url>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-spring-core</artifactId>
+      <version>[${project.version}]</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+      <version>[${spring-core.version}]</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-core</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>commons-logging</groupId>
+          <artifactId>commons-logging</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>javax.servlet</groupId>
+          <artifactId>javax.servlet-api</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-servlet</artifactId>
+      <version>[1.3,2)</version>
+    </dependency>
+
+  </dependencies>
+</project>

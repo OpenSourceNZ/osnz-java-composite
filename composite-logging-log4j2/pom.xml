@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>nz.net.osnz.parent</groupId>
+        <artifactId>central-parent</artifactId>
+        <version>6.2</version>
+    </parent>
+
+    <groupId>nz.net.osnz.composite</groupId>
+    <artifactId>composite-logging-log4j2</artifactId>
+    <version>1.5-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>Open Source New Zealand - Composite log4j2</name>
+    <description>Collection of logging dependencies</description>
+    <url>https://github.com/OpenSourceNZ/composite-logging-log4j2</url>
+
+    <properties>
+        <log4j.version>2.13.0</log4j.version>
+        <lmax.disruptor>3.4.2</lmax.disruptor>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>nz.net.osnz.composite</groupId>
+            <artifactId>composite-logging</artifactId>
+            <version>[5.4,6)</version>
+        </dependency>
+
+        <!-- Binding for log4j -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>[${log4j.version}]</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>[${log4j.version}]</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>[${log4j.version}]</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-1.2-api</artifactId>
+            <version>[${log4j.version}]</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-jul</artifactId>
+            <version>[${log4j.version}]</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lmax</groupId>
+            <artifactId>disruptor</artifactId>
+            <version>[${lmax.disruptor}]</version>
+        </dependency>
+    </dependencies>
+    <scm>
+        <url>https://github.com/OpenSourceNZ/composite-logging-log4j2</url>
+        <connection>scm:git:git@github.com:OpenSourceNZ/composite-logging-log4j2.git</connection>
+        <developerConnection>scm:git:git@github.com:OpenSourceNZ/composite-logging-log4j2.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+</project>
+

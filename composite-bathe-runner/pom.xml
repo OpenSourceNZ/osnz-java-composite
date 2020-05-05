@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>nz.net.osnz.parent</groupId>
+    <artifactId>central-parent</artifactId>
+    <version>6.2</version>
+  </parent>
+
+  <groupId>nz.net.osnz.composite</groupId>
+  <artifactId>composite-bathe-runner</artifactId>
+  <version>1.2-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <name>composite-bathe-runner</name>
+  <description>composite-bathe-runner</description>
+
+  <properties>
+    <bathe-booter.version>3.2</bathe-booter.version>
+    <spring-boot-loader.version>1.5.22.RELEASE</spring-boot-loader.version>
+  </properties>
+
+  <dependencies>
+
+    <!-- bathe-booter -->
+    <dependency>
+      <groupId>com.bluetrainsoftware.bathe</groupId>
+      <artifactId>bathe-booter</artifactId>
+      <version>[${bathe-booter.version}]</version>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.bluetrainsoftware.bathe.initializers</groupId>
+      <artifactId>jul-bridge</artifactId>
+      <version>[2.1]</version>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.bluetrainsoftware.bathe.initializers</groupId>
+      <artifactId>system-property-loader</artifactId>
+      <version>[3.1]</version>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <!-- jersey configKey supports with sticky configurations -->
+    <dependency>
+      <groupId>cd.connect.common</groupId>
+      <artifactId>connect-app-declare-config</artifactId>
+      <version>[1.1]</version>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <!-- spring-boot-loader -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-loader</artifactId>
+      <version>[${spring-boot-loader.version}]</version>
+    </dependency>
+
+    <!-- servlet api -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>[4.0.1]</version>
+    </dependency>
+
+    <!-- sticky code dependencies -->
+    <dependency>
+      <groupId>net.stickycode</groupId>
+      <artifactId>sticky-reflector</artifactId>
+      <version>[3.3]</version>
+    </dependency>
+    <dependency>
+      <groupId>net.stickycode.configured</groupId>
+      <artifactId>sticky-configured</artifactId>
+      <version>[6.8]</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.slf4j</groupId>
+          <artifactId>jcl-over-slf4j</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-api</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>net.stickycode</groupId>
+          <artifactId>sticky-coercion</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>net.stickycode.composite</groupId>
+          <artifactId>sticky-composite-logging-api</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>net.stickycode.stereotype</groupId>
+          <artifactId>sticky-stereotype-component</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>net.stickycode.configuration</groupId>
+      <artifactId>sticky-configuration</artifactId>
+      <version>[2.5]</version>
+      <exclusions>
+        <exclusion>
+          <groupId>net.stickycode</groupId>
+          <artifactId>sticky-coercion-api</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>net.stickycode.composite</groupId>
+          <artifactId>sticky-composite-logging-api</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>net.stickycode</groupId>
+      <artifactId>sticky-coercion</artifactId>
+      <version>[6.6]</version>
+      <exclusions>
+        <exclusion>
+          <groupId>net.stickycode.stereotype</groupId>
+          <artifactId>sticky-stereotype-component</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.yaml</groupId>
+      <artifactId>snakeyaml</artifactId>
+      <version>[1.24]</version>
+    </dependency>
+  </dependencies>
+
+  <scm>
+    <connection>scm:git:https://github.com/kdeng/osnz-java.git</connection>
+    <developerConnection>scm:git:https://github.com/kdeng/osnz-java.git</developerConnection>
+    <url>https://github.com/kdeng/osnz-java</url>
+    <tag>HEAD</tag>
+  </scm>
+
+</project>
+

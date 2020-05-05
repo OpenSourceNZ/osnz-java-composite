@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>nz.net.osnz.parent</groupId>
+    <artifactId>central-parent</artifactId>
+    <version>6.2</version>
+  </parent>
+
+  <groupId>nz.net.osnz.composite</groupId>
+  <artifactId>composite-spring-reactor</artifactId>
+  <version>5.21-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>composite-spring-reactor</name>
+  <description>Spring Reactor</description>
+  <url>https://github.com/OpenSourceNZ/composite-spring-reactor/composite-spring-reactor</url>
+
+  <properties>
+    <java.version>1.8</java.version>
+  </properties>
+
+  <modules>
+    <module>composite-spring-parent</module>
+    <module>composite-spring-core</module>
+    <module>composite-spring-aspects</module>
+    <module>composite-spring-data-jpa</module>
+    <module>composite-spring-jdbc</module>
+    <module>composite-spring-web</module>
+    <module>composite-spring-webmvc</module>
+    <module>composite-spring-webflux</module>
+    <module>composite-spring-test</module>
+    <module>composite-spring-boot</module>
+    <module>composite-spring-boot-devtools</module>
+    <module>composite-spring-boot-jetty</module>
+    <module>composite-spring-boot-loader</module>
+    <module>composite-spring-boot-tomcat</module>
+    <module>composite-spring-boot-undertow</module>
+    <module>composite-spring-boot-webflux</module>
+    <module>composite-spring-boot-test</module>
+    <module>composite-spring-boot-logging</module>
+    <module>composite-spring-boot-log4j2</module>
+  </modules>
+
+  <scm>
+    <url>https://github.com/OpenSourceNZ/composite-spring-reactor</url>
+    <connection>scm:git:git@github.com:OpenSourceNZ/composite-spring-reactor.git</connection>
+    <developerConnection>scm:git:git@github.com:OpenSourceNZ/composite-spring-reactor.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+</project>

@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>nz.net.osnz.composite</groupId>
+    <artifactId>composite-spring-parent</artifactId>
+    <version>5.21-SNAPSHOT</version>
+    <relativePath>../composite-spring-parent</relativePath>
+  </parent>
+
+  <artifactId>composite-spring-aspects</artifactId>
+  <version>5.21-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>composite-spring-aspects</name>
+  <description>Collection of the standard spring aspect dependencies</description>
+  <url>https://github.com/OpenSourceNZ/composite-spring-reactor</url>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aspects</artifactId>
+      <version>[${spring-core.version}]</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-core</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>commons-logging</groupId>
+          <artifactId>commons-logging</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

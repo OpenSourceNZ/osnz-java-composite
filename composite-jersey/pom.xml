@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>nz.net.osnz.parent</groupId>
+    <artifactId>central-parent</artifactId>
+    <version>6.2</version>
+  </parent>
+
+  <groupId>nz.net.osnz.composite</groupId>
+  <artifactId>composite-jersey-reactor</artifactId>
+  <version>1.2-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>composite-jersey-reactor</name>
+  <description>composite-jersey-reactor</description>
+  <url>https://github.com/kdeng/osnz-java</url>
+
+  <modules>
+    <module>composite-jersey-parent</module>
+    <module>composite-jersey-media</module>
+    <module>composite-jersey-netty</module>
+    <module>composite-jersey-test</module>
+  </modules>
+
+  <scm>
+    <connection>scm:git:https://github.com/kdeng/osnz-java.git</connection>
+    <developerConnection>scm:git:https://github.com/kdeng/osnz-java.git</developerConnection>
+    <url>https://github.com/kdeng/osnz-java</url>
+    <tag>HEAD</tag>
+  </scm>
+
+</project>
+

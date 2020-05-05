@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>nz.net.osnz.parent</groupId>
+    <artifactId>central-parent</artifactId>
+    <version>6.2</version>
+  </parent>
+
+  <groupId>nz.net.osnz.composite</groupId>
+  <artifactId>composite-java11-support</artifactId>
+  <version>1.2-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>composite-java11-support</name>
+  <description>Unit testing infrastructure.</description>
+  <url>https://githuzb.com/OpenSourceNZ/composite-java11-support</url>
+
+  <properties>
+    <java.version>1.8</java.version>
+    <jaxb-api.version>2.3.1</jaxb-api.version>
+    <jaxb-core.version>2.3.0.1</jaxb-core.version>
+    <jaxb-impl.version>2.3.2</jaxb-impl.version>
+    <activation.version>1.1.1</activation.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>javax.xml.bind</groupId>
+      <artifactId>jaxb-api</artifactId>
+      <version>[${jaxb-api.version}]</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.xml.bind</groupId>
+      <artifactId>jaxb-core</artifactId>
+      <version>[${jaxb-core.version}]</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.xml.bind</groupId>
+      <artifactId>jaxb-impl</artifactId>
+      <version>[${jaxb-impl.version}]</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.activation</groupId>
+      <artifactId>activation</artifactId>
+      <version>[${activation.version}]</version>
+    </dependency>
+  </dependencies>
+
+  <scm>
+    <url>https://githuzb.com/OpenSourceNZ/composite-java11-support</url>
+    <connection>scm:git:git@github.com:OpenSourceNZ/composite-java11-support.git</connection>
+    <developerConnection>scm:git:git@github.com:OpenSourceNZ/composite-java11-support.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+</project>

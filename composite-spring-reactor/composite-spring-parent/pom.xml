@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>nz.net.osnz.parent</groupId>
+    <artifactId>central-parent</artifactId>
+    <version>6.2</version>
+  </parent>
+
+  <groupId>nz.net.osnz.composite</groupId>
+  <artifactId>composite-spring-parent</artifactId>
+  <version>5.21-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>composite-spring-parent</name>
+  <description>Composite Spring Parent</description>
+  <url>https://github.com/OpenSourceNZ/composite-spring-reactor/composite-spring-parent</url>
+
+  <properties>
+    <java.version>1.8</java.version>
+    <spring-core.version>5.2.3.RELEASE</spring-core.version>
+    <spring-boot.version>2.2.4.RELEASE</spring-boot.version>
+    <spring-data-jpa.version>2.2.4.RELEASE</spring-data-jpa.version>
+
+    <!-- jetty -->
+    <apache-el.version>9.0.29</apache-el.version>
+    <composite-jetty.version>[3,4)</composite-jetty.version>
+
+    <!-- tomcat -->
+    <tomcat.version>9.0.30</tomcat.version>
+    <jstl.version>1.2</jstl.version>
+
+    <!-- undertow -->
+    <undertow.version>2.0.29.Final</undertow.version>
+
+    <!-- spring test -->
+    <composite-unit-test.version>[6,7)</composite-unit-test.version>
+  </properties>
+
+  <scm>
+    <url>https://github.com/OpenSourceNZ/composite-spring-reactor</url>
+    <connection>scm:git:git@github.com:OpenSourceNZ/composite-spring-reactor.git</connection>
+    <developerConnection>scm:git:git@github.com:OpenSourceNZ/composite-spring-reactor.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-release-plugin</artifactId>
+          <version>2.5.3</version>
+          <configuration>
+            <autoVersionSubmodules>true</autoVersionSubmodules>
+            <mavenExecutorId>forked-path</mavenExecutorId>
+            <preparationGoals>clean validate enforcer:enforce verify</preparationGoals>
+            <goals>enforcer:enforce deploy</goals>
+            <tagBase>release/${project.groupId}/</tagBase>
+            <pushChanges>false</pushChanges>
+            <localCheckout>true</localCheckout>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+</project>

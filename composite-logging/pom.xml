@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>nz.net.osnz.parent</groupId>
+    <artifactId>central-parent</artifactId>
+    <version>6.2</version>
+  </parent>
+
+  <groupId>nz.net.osnz.composite</groupId>
+  <artifactId>composite-logging</artifactId>
+  <version>5.5-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Open Source New Zealand - Composite logging</name>
+  <description>Collection of logging dependencies</description>
+  <url>https://github.com/OpenSourceNZ/composite-logging</url>
+
+  <properties>
+    <slf4j.version>1.7.30</slf4j.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>${slf4j.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>jul-to-slf4j</artifactId>
+      <version>${slf4j.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-api</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>jcl-over-slf4j</artifactId>
+      <version>${slf4j.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-api</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+  <scm>
+    <url>https://github.com/OpenSourceNZ/composite-logging</url>
+    <connection>scm:git:git@github.com:OpenSourceNZ/composite-logging.git</connection>
+    <developerConnection>scm:git:git@github.com:OpenSourceNZ/composite-logging.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+</project>

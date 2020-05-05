@@ -1,0 +1,1109 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] composite-spring-parent                                            [pom]
+[INFO] composite-spring-core                                              [jar]
+[INFO] composite-spring-aspects                                           [jar]
+[INFO] composite-spring-data-jpa                                          [jar]
+[INFO] composite-spring-jdbc                                              [jar]
+[INFO] composite-spring-web                                               [jar]
+[INFO] composite-spring-webmvc                                            [jar]
+[INFO] composite-spring-webflux                                           [jar]
+[INFO] composite-spring-test                                              [jar]
+[INFO] composite-spring-boot                                              [jar]
+[INFO] composite-spring-boot-devtools                                     [jar]
+[INFO] composite-spring-boot-jetty                                        [jar]
+[INFO] composite-spring-boot-loader                                       [jar]
+[INFO] composite-spring-boot-tomcat                                       [jar]
+[INFO] composite-spring-boot-undertow                                     [jar]
+[INFO] composite-spring-boot-webflux                                      [jar]
+[INFO] composite-spring-boot-test                                         [jar]
+[INFO] composite-spring-boot-logging                                      [jar]
+[INFO] composite-spring-boot-log4j2                                       [jar]
+[INFO] composite-spring-reactor                                           [pom]
+[INFO] 
+[INFO] -----------< nz.net.osnz.composite:composite-spring-parent >------------
+[INFO] Building composite-spring-parent 5.16-SNAPSHOT                    [1/20]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-parent ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-parent/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-parent ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-parent ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-parent/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-parent/dependency.tree
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-parent ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-parent ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-parent/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-parent/5.16-SNAPSHOT/composite-spring-parent-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-parent/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-parent/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-parent/5.16-SNAPSHOT/composite-spring-parent-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-parent/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-parent/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-parent/5.16-SNAPSHOT/composite-spring-parent-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-parent ---
+[INFO] nz.net.osnz.composite:composite-spring-parent:pom:5.16-SNAPSHOT
+[INFO] 
+[INFO] ------------< nz.net.osnz.composite:composite-spring-core >-------------
+[INFO] Building composite-spring-core 5.16-SNAPSHOT                      [2/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-core ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-core/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-core/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-core/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-core ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-core ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-core ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-core/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-core/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-core ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-core/target/composite-spring-core-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-core ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-core ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-core/target/composite-spring-core-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-core/5.16-SNAPSHOT/composite-spring-core-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-core/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-core/5.16-SNAPSHOT/composite-spring-core-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-core/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-core/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-core/5.16-SNAPSHOT/composite-spring-core-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-core/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-core/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-core/5.16-SNAPSHOT/composite-spring-core-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-core ---
+[INFO] nz.net.osnz.composite:composite-spring-core:jar:5.16-SNAPSHOT
+[INFO] +- org.springframework:spring-core:jar:5.1.9.RELEASE:compile
+[INFO] |  \- org.springframework:spring-jcl:jar:5.1.9.RELEASE:compile
+[INFO] +- org.springframework:spring-context:jar:5.1.9.RELEASE:compile
+[INFO] +- org.springframework:spring-expression:jar:5.1.9.RELEASE:compile
+[INFO] +- org.springframework:spring-beans:jar:5.1.9.RELEASE:compile
+[INFO] \- org.springframework:spring-aop:jar:5.1.9.RELEASE:compile
+[INFO] 
+[INFO] -----------< nz.net.osnz.composite:composite-spring-aspects >-----------
+[INFO] Building composite-spring-aspects 5.16-SNAPSHOT                   [3/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-aspects ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-aspects/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-aspects ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-aspects/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-aspects ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-aspects ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-aspects/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-aspects ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-aspects ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-aspects ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-aspects ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-aspects/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-aspects/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-aspects ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-aspects/target/composite-spring-aspects-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-aspects ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-aspects ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-aspects/target/composite-spring-aspects-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-aspects/5.16-SNAPSHOT/composite-spring-aspects-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-aspects/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-aspects/5.16-SNAPSHOT/composite-spring-aspects-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-aspects/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-aspects/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-aspects/5.16-SNAPSHOT/composite-spring-aspects-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-aspects/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-aspects/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-aspects/5.16-SNAPSHOT/composite-spring-aspects-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-aspects ---
+[INFO] nz.net.osnz.composite:composite-spring-aspects:jar:5.16-SNAPSHOT
+[INFO] \- org.springframework:spring-aspects:jar:5.1.9.RELEASE:compile
+[INFO]    \- org.aspectj:aspectjweaver:jar:1.9.4:compile
+[INFO] 
+[INFO] ----------< nz.net.osnz.composite:composite-spring-data-jpa >-----------
+[INFO] Building composite-spring-data-jpa 5.16-SNAPSHOT                  [4/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-data-jpa ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-data-jpa/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-data-jpa ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-data-jpa/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-data-jpa ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-data-jpa ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-data-jpa/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-data-jpa ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-data-jpa ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-data-jpa ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-data-jpa ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-data-jpa/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-data-jpa/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-data-jpa ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-data-jpa/target/composite-spring-data-jpa-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-data-jpa ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-data-jpa ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-data-jpa/target/composite-spring-data-jpa-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-data-jpa/5.16-SNAPSHOT/composite-spring-data-jpa-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-data-jpa/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-data-jpa/5.16-SNAPSHOT/composite-spring-data-jpa-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-data-jpa/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-data-jpa/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-data-jpa/5.16-SNAPSHOT/composite-spring-data-jpa-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-data-jpa/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-data-jpa/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-data-jpa/5.16-SNAPSHOT/composite-spring-data-jpa-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-data-jpa ---
+[INFO] nz.net.osnz.composite:composite-spring-data-jpa:jar:5.16-SNAPSHOT
+[INFO] +- nz.net.osnz.composite:composite-spring-core:jar:5.16-SNAPSHOT:compile
+[INFO] |  +- org.springframework:spring-core:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  |  \- org.springframework:spring-jcl:jar:5.1.9.RELEASE:compile
+[INFO] |  +- org.springframework:spring-context:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  +- org.springframework:spring-expression:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  +- org.springframework:spring-beans:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  \- org.springframework:spring-aop:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] +- org.springframework.data:spring-data-jpa:jar:2.1.10.RELEASE:compile
+[INFO] |  +- org.springframework.data:spring-data-commons:jar:2.1.10.RELEASE:compile
+[INFO] |  \- org.aspectj:aspectjrt:jar:1.9.3:compile
+[INFO] +- org.springframework:spring-orm:jar:5.1.9.RELEASE:compile
+[INFO] \- org.springframework:spring-tx:jar:5.1.9.RELEASE:compile
+[INFO] 
+[INFO] ------------< nz.net.osnz.composite:composite-spring-jdbc >-------------
+[INFO] Building composite-spring-jdbc 5.16-SNAPSHOT                      [5/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-jdbc ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-jdbc/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-jdbc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-jdbc/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-jdbc ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-jdbc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-jdbc/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-jdbc ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-jdbc ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-jdbc ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-jdbc ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-jdbc/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-jdbc/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-jdbc ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-jdbc/target/composite-spring-jdbc-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-jdbc ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-jdbc ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-jdbc/target/composite-spring-jdbc-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-jdbc/5.16-SNAPSHOT/composite-spring-jdbc-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-jdbc/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-jdbc/5.16-SNAPSHOT/composite-spring-jdbc-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-jdbc/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-jdbc/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-jdbc/5.16-SNAPSHOT/composite-spring-jdbc-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-jdbc/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-jdbc/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-jdbc/5.16-SNAPSHOT/composite-spring-jdbc-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-jdbc ---
+[INFO] nz.net.osnz.composite:composite-spring-jdbc:jar:5.16-SNAPSHOT
+[INFO] +- nz.net.osnz.composite:composite-spring-data-jpa:jar:5.16-SNAPSHOT:compile
+[INFO] |  +- nz.net.osnz.composite:composite-spring-core:jar:5.16-SNAPSHOT:compile (version selected from constraint [5.16-SNAPSHOT,5.16-SNAPSHOT])
+[INFO] |  |  +- org.springframework:spring-core:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  |  |  \- org.springframework:spring-jcl:jar:5.1.9.RELEASE:compile
+[INFO] |  |  +- org.springframework:spring-context:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  |  +- org.springframework:spring-expression:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  |  \- org.springframework:spring-aop:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  +- org.springframework.data:spring-data-jpa:jar:2.1.10.RELEASE:compile (version selected from constraint [2.1.10.RELEASE,2.1.10.RELEASE])
+[INFO] |  |  +- org.springframework.data:spring-data-commons:jar:2.1.10.RELEASE:compile
+[INFO] |  |  \- org.aspectj:aspectjrt:jar:1.9.3:compile
+[INFO] |  +- org.springframework:spring-orm:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  \- org.springframework:spring-tx:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] \- org.springframework:spring-jdbc:jar:5.1.9.RELEASE:compile
+[INFO]    \- org.springframework:spring-beans:jar:5.1.9.RELEASE:compile
+[INFO] 
+[INFO] -------------< nz.net.osnz.composite:composite-spring-web >-------------
+[INFO] Building composite-spring-web 5.16-SNAPSHOT                       [6/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-web ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-web/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-web/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-web ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-web/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-web ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-web ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-web ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-web ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-web/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-web/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-web ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-web/target/composite-spring-web-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-web ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-web ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-web/target/composite-spring-web-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-web/5.16-SNAPSHOT/composite-spring-web-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-web/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-web/5.16-SNAPSHOT/composite-spring-web-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-web/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-web/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-web/5.16-SNAPSHOT/composite-spring-web-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-web/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-web/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-web/5.16-SNAPSHOT/composite-spring-web-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-web ---
+[INFO] nz.net.osnz.composite:composite-spring-web:jar:5.16-SNAPSHOT
+[INFO] +- nz.net.osnz.composite:composite-spring-core:jar:5.16-SNAPSHOT:compile
+[INFO] |  +- org.springframework:spring-core:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  |  \- org.springframework:spring-jcl:jar:5.1.9.RELEASE:compile
+[INFO] |  +- org.springframework:spring-context:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  +- org.springframework:spring-expression:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  +- org.springframework:spring-beans:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  \- org.springframework:spring-aop:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] +- org.springframework:spring-web:jar:5.1.9.RELEASE:compile
+[INFO] \- nz.net.osnz.composite:composite-servlet:jar:1.3:compile
+[INFO]    \- javax.servlet:javax.servlet-api:jar:4.0.1:compile
+[INFO] 
+[INFO] -----------< nz.net.osnz.composite:composite-spring-webmvc >------------
+[INFO] Building composite-spring-webmvc 5.16-SNAPSHOT                    [7/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-webmvc ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webmvc/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-webmvc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webmvc/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-webmvc ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-webmvc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webmvc/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-webmvc ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-webmvc ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-webmvc ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-webmvc ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webmvc/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-webmvc/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-webmvc ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webmvc/target/composite-spring-webmvc-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-webmvc ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-webmvc ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webmvc/target/composite-spring-webmvc-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-webmvc/5.16-SNAPSHOT/composite-spring-webmvc-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webmvc/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-webmvc/5.16-SNAPSHOT/composite-spring-webmvc-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webmvc/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-webmvc/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-webmvc/5.16-SNAPSHOT/composite-spring-webmvc-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webmvc/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-webmvc/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-webmvc/5.16-SNAPSHOT/composite-spring-webmvc-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-webmvc ---
+[INFO] nz.net.osnz.composite:composite-spring-webmvc:jar:5.16-SNAPSHOT
+[INFO] +- nz.net.osnz.composite:composite-spring-web:jar:5.16-SNAPSHOT:compile
+[INFO] |  +- nz.net.osnz.composite:composite-spring-core:jar:5.16-SNAPSHOT:compile (version selected from constraint [5.16-SNAPSHOT,5.16-SNAPSHOT])
+[INFO] |  |  \- org.springframework:spring-core:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  |     \- org.springframework:spring-jcl:jar:5.1.9.RELEASE:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  \- nz.net.osnz.composite:composite-servlet:jar:1.3:compile (version selected from constraint [1.3,2))
+[INFO] |     \- javax.servlet:javax.servlet-api:jar:4.0.1:compile
+[INFO] +- org.springframework:spring-webmvc:jar:5.1.9.RELEASE:compile
+[INFO] |  +- org.springframework:spring-aop:jar:5.1.9.RELEASE:compile
+[INFO] |  +- org.springframework:spring-beans:jar:5.1.9.RELEASE:compile
+[INFO] |  +- org.springframework:spring-context:jar:5.1.9.RELEASE:compile
+[INFO] |  \- org.springframework:spring-expression:jar:5.1.9.RELEASE:compile
+[INFO] \- org.springframework:spring-context-support:jar:5.1.9.RELEASE:compile
+[INFO] 
+[INFO] -----------< nz.net.osnz.composite:composite-spring-webflux >-----------
+[INFO] Building composite-spring-webflux 5.16-SNAPSHOT                   [8/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-webflux ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webflux/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-webflux ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webflux/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-webflux ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-webflux ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webflux/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-webflux ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-webflux ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-webflux ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-webflux ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webflux/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-webflux/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-webflux ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webflux/target/composite-spring-webflux-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-webflux ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-webflux ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webflux/target/composite-spring-webflux-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-webflux/5.16-SNAPSHOT/composite-spring-webflux-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webflux/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-webflux/5.16-SNAPSHOT/composite-spring-webflux-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webflux/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-webflux/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-webflux/5.16-SNAPSHOT/composite-spring-webflux-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-webflux/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-webflux/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-webflux/5.16-SNAPSHOT/composite-spring-webflux-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-webflux ---
+[INFO] nz.net.osnz.composite:composite-spring-webflux:jar:5.16-SNAPSHOT
+[INFO] +- nz.net.osnz.composite:composite-spring-web:jar:5.16-SNAPSHOT:compile
+[INFO] |  +- nz.net.osnz.composite:composite-spring-core:jar:5.16-SNAPSHOT:compile (version selected from constraint [5.16-SNAPSHOT,5.16-SNAPSHOT])
+[INFO] |  |  +- org.springframework:spring-core:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  |  |  \- org.springframework:spring-jcl:jar:5.1.9.RELEASE:compile
+[INFO] |  |  +- org.springframework:spring-expression:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  |  \- org.springframework:spring-aop:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  +- org.springframework:spring-web:jar:5.1.9.RELEASE:compile (version selected from constraint [5.1.9.RELEASE,5.1.9.RELEASE])
+[INFO] |  \- nz.net.osnz.composite:composite-servlet:jar:1.3:compile (version selected from constraint [1.3,2))
+[INFO] |     \- javax.servlet:javax.servlet-api:jar:4.0.1:compile
+[INFO] +- org.springframework:spring-webflux:jar:5.1.9.RELEASE:compile
+[INFO] |  +- io.projectreactor:reactor-core:jar:3.2.11.RELEASE:compile
+[INFO] |  |  \- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+[INFO] |  \- org.springframework:spring-beans:jar:5.1.9.RELEASE:compile
+[INFO] \- org.springframework:spring-context-support:jar:5.1.9.RELEASE:compile
+[INFO]    \- org.springframework:spring-context:jar:5.1.9.RELEASE:compile
+[INFO] 
+[INFO] ------------< nz.net.osnz.composite:composite-spring-test >-------------
+[INFO] Building composite-spring-test 5.16-SNAPSHOT                      [9/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-test ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-test/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-test/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-test ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-test/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-test ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-test ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-test ---
+[INFO] Can't extract module name from fest-assert-1.4.jar: fest.assert: Invalid module name: 'assert' is not a Java identifier
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-test ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-test/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-test/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-test ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-test/target/composite-spring-test-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-test ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-test ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-test/target/composite-spring-test-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-test/5.16-SNAPSHOT/composite-spring-test-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-test/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-test/5.16-SNAPSHOT/composite-spring-test-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-test/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-test/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-test/5.16-SNAPSHOT/composite-spring-test-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-test/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-test/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-test/5.16-SNAPSHOT/composite-spring-test-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-test ---
+[INFO] nz.net.osnz.composite:composite-spring-test:jar:5.16-SNAPSHOT
+[INFO] +- nz.net.osnz.composite:composite-unit-test:jar:6.2:compile
+[INFO] |  +- org.mockito:mockito-core:jar:2.25.1:compile (version selected from constraint [2.25.1,2.25.1])
+[INFO] |  +- junit:junit:jar:4.13-beta-2:compile (version selected from constraint [4.13-beta-2,4.13-beta-2])
+[INFO] |  +- org.easytesting:fest-assert:jar:1.4:compile (version selected from constraint [1.4,1.4])
+[INFO] |  |  \- org.easytesting:fest-util:jar:1.1.6:compile
+[INFO] |  +- org.hamcrest:hamcrest-core:jar:2.1:compile (version selected from constraint [2.1,2.1])
+[INFO] |  |  \- org.hamcrest:hamcrest:jar:2.1:compile
+[INFO] |  +- net.bytebuddy:byte-buddy:jar:1.9.12:compile (version selected from constraint [1.9.12,1.9.12])
+[INFO] |  +- net.bytebuddy:byte-buddy-agent:jar:1.9.12:compile (version selected from constraint [1.9.12,1.9.12])
+[INFO] |  +- org.objenesis:objenesis:jar:3.0.1:compile (version selected from constraint [3.0.1,3.0.1])
+[INFO] |  +- org.assertj:assertj-core:jar:3.12.2:compile (version selected from constraint [3.12.2,3.12.2])
+[INFO] |  +- org.opentest4j:opentest4j:jar:1.1.1:compile (version selected from constraint [1.1.1,1.1.1])
+[INFO] |  +- org.apiguardian:apiguardian-api:jar:1.0.0:compile (version selected from constraint [1.0.0,1.0.0])
+[INFO] |  +- org.junit.jupiter:junit-jupiter-engine:jar:5.5.0-M1:compile
+[INFO] |  +- org.junit.jupiter:junit-jupiter-api:jar:5.5.0-M1:compile
+[INFO] |  +- org.junit.jupiter:junit-jupiter-params:jar:5.5.0-M1:compile
+[INFO] |  +- org.junit.vintage:junit-vintage-engine:jar:5.5.0-M1:compile
+[INFO] |  +- org.junit.platform:junit-platform-engine:jar:1.5.0-M1:compile
+[INFO] |  +- org.junit.platform:junit-platform-launcher:jar:1.5.0-M1:compile
+[INFO] |  \- org.junit.platform:junit-platform-commons:jar:1.5.0-M1:compile
+[INFO] \- org.springframework:spring-test:jar:5.1.9.RELEASE:compile
+[INFO] 
+[INFO] ------------< nz.net.osnz.composite:composite-spring-boot >-------------
+[INFO] Building composite-spring-boot 5.16-SNAPSHOT                     [10/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-boot ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-boot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-boot ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-boot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-boot ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-boot ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-boot ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-boot ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-boot ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot/target/composite-spring-boot-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-boot ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-boot ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot/target/composite-spring-boot-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot/5.16-SNAPSHOT/composite-spring-boot-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot/5.16-SNAPSHOT/composite-spring-boot-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot/5.16-SNAPSHOT/composite-spring-boot-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot/5.16-SNAPSHOT/composite-spring-boot-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-boot ---
+[INFO] nz.net.osnz.composite:composite-spring-boot:jar:5.16-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-actuator:jar:2.1.8.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.1.8.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.1.8.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.1.8.RELEASE:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.23:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.1.8.RELEASE:compile
+[INFO] |  |  \- org.springframework.boot:spring-boot-actuator:jar:2.1.8.RELEASE:compile
+[INFO] |  \- io.micrometer:micrometer-core:jar:1.1.6:compile
+[INFO] |     +- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+[INFO] |     \- org.latencyutils:LatencyUtils:jar:2.0.3:compile
+[INFO] \- org.springframework.boot:spring-boot-starter-web:jar:2.1.8.RELEASE:compile
+[INFO]    +- org.springframework.boot:spring-boot-starter-json:jar:2.1.8.RELEASE:compile
+[INFO]    \- org.hibernate.validator:hibernate-validator:jar:6.0.17.Final:compile
+[INFO]       +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO]       +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO]       \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] 
+[INFO] --------< nz.net.osnz.composite:composite-spring-boot-devtools >--------
+[INFO] Building composite-spring-boot-devtools 5.16-SNAPSHOT            [11/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-boot-devtools ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-devtools/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-boot-devtools ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-devtools/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-boot-devtools ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-boot-devtools ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-devtools/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-boot-devtools ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-boot-devtools ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-boot-devtools ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-boot-devtools ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-devtools/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-devtools/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-boot-devtools ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-devtools/target/composite-spring-boot-devtools-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-boot-devtools ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-boot-devtools ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-devtools/target/composite-spring-boot-devtools-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-devtools/5.16-SNAPSHOT/composite-spring-boot-devtools-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-devtools/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-devtools/5.16-SNAPSHOT/composite-spring-boot-devtools-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-devtools/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-devtools/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-devtools/5.16-SNAPSHOT/composite-spring-boot-devtools-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-devtools/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-devtools/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-devtools/5.16-SNAPSHOT/composite-spring-boot-devtools-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-boot-devtools ---
+[INFO] nz.net.osnz.composite:composite-spring-boot-devtools:jar:5.16-SNAPSHOT
+[INFO] \- org.springframework.boot:spring-boot-devtools:jar:2.1.8.RELEASE:compile
+[INFO] 
+[INFO] ---------< nz.net.osnz.composite:composite-spring-boot-jetty >----------
+[INFO] Building composite-spring-boot-jetty 5.16-SNAPSHOT               [12/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-boot-jetty ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-jetty/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-boot-jetty ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-jetty/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-boot-jetty ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-boot-jetty ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-jetty/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-boot-jetty ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-boot-jetty ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-boot-jetty ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-boot-jetty ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-jetty/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-jetty/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-boot-jetty ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-jetty/target/composite-spring-boot-jetty-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-boot-jetty ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-boot-jetty ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-jetty/target/composite-spring-boot-jetty-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-jetty/5.16-SNAPSHOT/composite-spring-boot-jetty-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-jetty/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-jetty/5.16-SNAPSHOT/composite-spring-boot-jetty-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-jetty/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-jetty/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-jetty/5.16-SNAPSHOT/composite-spring-boot-jetty-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-jetty/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-jetty/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-jetty/5.16-SNAPSHOT/composite-spring-boot-jetty-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-boot-jetty ---
+[INFO] nz.net.osnz.composite:composite-spring-boot-jetty:jar:5.16-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-jetty:jar:2.1.8.RELEASE:compile
+[INFO] +- org.mortbay.jasper:apache-el:jar:9.0.19:compile
+[INFO] \- nz.net.osnz.composite:composite-jetty:jar:3.10:compile
+[INFO]    +- org.eclipse.jetty:jetty-server:jar:9.4.20.v20190813:compile
+[INFO]    |  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    |  +- org.eclipse.jetty:jetty-http:jar:9.4.20.v20190813:compile
+[INFO]    |  \- org.eclipse.jetty:jetty-io:jar:9.4.20.v20190813:compile
+[INFO]    +- org.eclipse.jetty:jetty-servlets:jar:9.4.20.v20190813:compile
+[INFO]    |  \- org.eclipse.jetty:jetty-continuation:jar:9.4.20.v20190813:compile
+[INFO]    +- org.eclipse.jetty:jetty-webapp:jar:9.4.20.v20190813:compile
+[INFO]    |  +- org.eclipse.jetty:jetty-xml:jar:9.4.20.v20190813:compile
+[INFO]    |  \- org.eclipse.jetty:jetty-servlet:jar:9.4.20.v20190813:compile
+[INFO]    |     \- org.eclipse.jetty:jetty-security:jar:9.4.20.v20190813:compile
+[INFO]    +- org.eclipse.jetty:jetty-jsp:jar:9.2.28.v20190418:compile
+[INFO]    |  +- org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile
+[INFO]    |  +- javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.1:compile
+[INFO]    |  +- org.glassfish.web:javax.servlet.jsp:jar:2.3.2:compile
+[INFO]    |  +- org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821:compile
+[INFO]    |  +- org.glassfish.web:javax.servlet.jsp.jstl:jar:1.2.2:compile
+[INFO]    |  +- org.glassfish:javax.el:jar:3.0.0:compile
+[INFO]    |  \- org.eclipse.jetty.orbit:org.eclipse.jdt.core:jar:3.8.2.v20130121:compile
+[INFO]    +- org.eclipse.jetty:jetty-util:jar:9.4.20.v20190813:compile
+[INFO]    +- org.eclipse.jetty.websocket:websocket-server:jar:9.4.20.v20190813:compile
+[INFO]    |  +- org.eclipse.jetty.websocket:websocket-common:jar:9.4.20.v20190813:compile
+[INFO]    |  |  \- org.eclipse.jetty.websocket:websocket-api:jar:9.4.20.v20190813:compile
+[INFO]    |  +- org.eclipse.jetty.websocket:websocket-client:jar:9.4.20.v20190813:compile
+[INFO]    |  |  \- org.eclipse.jetty:jetty-client:jar:9.4.20.v20190813:compile
+[INFO]    |  \- org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.20.v20190813:compile
+[INFO]    \- org.eclipse.jetty.websocket:javax-websocket-server-impl:jar:9.4.20.v20190813:compile
+[INFO]       +- org.eclipse.jetty:jetty-annotations:jar:9.4.20.v20190813:compile
+[INFO]       |  +- org.eclipse.jetty:jetty-plus:jar:9.4.20.v20190813:compile
+[INFO]       |  |  \- org.eclipse.jetty:jetty-jndi:jar:9.4.20.v20190813:compile
+[INFO]       |  +- javax.annotation:javax.annotation-api:jar:1.3:compile
+[INFO]       |  +- org.ow2.asm:asm:jar:7.1:compile
+[INFO]       |  \- org.ow2.asm:asm-commons:jar:7.1:compile
+[INFO]       |     +- org.ow2.asm:asm-tree:jar:7.1:compile
+[INFO]       |     \- org.ow2.asm:asm-analysis:jar:7.1:compile
+[INFO]       +- org.eclipse.jetty.websocket:javax-websocket-client-impl:jar:9.4.20.v20190813:compile
+[INFO]       |  \- javax.websocket:javax.websocket-client-api:jar:1.0:compile
+[INFO]       \- javax.websocket:javax.websocket-api:jar:1.0:compile
+[INFO] 
+[INFO] ---------< nz.net.osnz.composite:composite-spring-boot-loader >---------
+[INFO] Building composite-spring-boot-loader 5.16-SNAPSHOT              [13/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-boot-loader ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-loader/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-boot-loader ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-loader/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-boot-loader ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-boot-loader ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-loader/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-boot-loader ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-boot-loader ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-boot-loader ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-boot-loader ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-loader/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-loader/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-boot-loader ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-loader/target/composite-spring-boot-loader-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-boot-loader ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-boot-loader ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-loader/target/composite-spring-boot-loader-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-loader/5.16-SNAPSHOT/composite-spring-boot-loader-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-loader/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-loader/5.16-SNAPSHOT/composite-spring-boot-loader-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-loader/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-loader/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-loader/5.16-SNAPSHOT/composite-spring-boot-loader-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-loader/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-loader/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-loader/5.16-SNAPSHOT/composite-spring-boot-loader-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-boot-loader ---
+[INFO] nz.net.osnz.composite:composite-spring-boot-loader:jar:5.16-SNAPSHOT
+[INFO] \- org.springframework.boot:spring-boot-loader:jar:2.1.8.RELEASE:compile
+[INFO] 
+[INFO] ---------< nz.net.osnz.composite:composite-spring-boot-tomcat >---------
+[INFO] Building composite-spring-boot-tomcat 5.16-SNAPSHOT              [14/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-boot-tomcat ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-tomcat/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-boot-tomcat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-tomcat/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-boot-tomcat ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-boot-tomcat ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-tomcat/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-boot-tomcat ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-boot-tomcat ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-boot-tomcat ---
+[INFO] Can't extract module name from tomcat-embed-core-9.0.24.jar: Automatic-Module-Name: org.apache.tomcat-embed-core: Invalid module name: 'tomcat-embed-core' is not a Java identifier
+[INFO] Can't extract module name from tomcat-embed-websocket-9.0.24.jar: Automatic-Module-Name: org.apache.tomcat-embed-websocket: Invalid module name: 'tomcat-embed-websocket' is not a Java identifier
+[INFO] Can't extract module name from tomcat-embed-el-9.0.24.jar: Automatic-Module-Name: org.apache.tomcat-embed-jasper-el: Invalid module name: 'tomcat-embed-jasper-el' is not a Java identifier
+[INFO] Can't extract module name from tomcat-embed-jasper-9.0.24.jar: Automatic-Module-Name: org.apache.tomcat-embed-jasper: Invalid module name: 'tomcat-embed-jasper' is not a Java identifier
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-boot-tomcat ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-tomcat/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-tomcat/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-boot-tomcat ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-tomcat/target/composite-spring-boot-tomcat-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-boot-tomcat ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-boot-tomcat ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-tomcat/target/composite-spring-boot-tomcat-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-tomcat/5.16-SNAPSHOT/composite-spring-boot-tomcat-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-tomcat/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-tomcat/5.16-SNAPSHOT/composite-spring-boot-tomcat-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-tomcat/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-tomcat/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-tomcat/5.16-SNAPSHOT/composite-spring-boot-tomcat-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-tomcat/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-tomcat/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-tomcat/5.16-SNAPSHOT/composite-spring-boot-tomcat-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-boot-tomcat ---
+[INFO] nz.net.osnz.composite:composite-spring-boot-tomcat:jar:5.16-SNAPSHOT
+[INFO] +- javax.servlet:jstl:jar:1.2:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.8.RELEASE:compile
+[INFO] |  \- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.24:compile
+[INFO] |  \- org.apache.tomcat:tomcat-annotations-api:jar:9.0.24:compile
+[INFO] +- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.24:compile
+[INFO] +- org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.24:compile
+[INFO] \- org.apache.tomcat.embed:tomcat-embed-jasper:jar:9.0.24:compile
+[INFO]    \- org.eclipse.jdt:ecj:jar:3.18.0:compile
+[INFO] 
+[INFO] --------< nz.net.osnz.composite:composite-spring-boot-undertow >--------
+[INFO] Building composite-spring-boot-undertow 5.16-SNAPSHOT            [15/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-boot-undertow ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-undertow/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-boot-undertow ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-undertow/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-boot-undertow ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-boot-undertow ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-undertow/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-boot-undertow ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-boot-undertow ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-boot-undertow ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-boot-undertow ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-undertow/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-undertow/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-boot-undertow ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-undertow/target/composite-spring-boot-undertow-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-boot-undertow ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-boot-undertow ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-undertow/target/composite-spring-boot-undertow-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-undertow/5.16-SNAPSHOT/composite-spring-boot-undertow-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-undertow/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-undertow/5.16-SNAPSHOT/composite-spring-boot-undertow-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-undertow/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-undertow/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-undertow/5.16-SNAPSHOT/composite-spring-boot-undertow-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-undertow/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-undertow/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-undertow/5.16-SNAPSHOT/composite-spring-boot-undertow-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-boot-undertow ---
+[INFO] nz.net.osnz.composite:composite-spring-boot-undertow:jar:5.16-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-undertow:jar:2.1.8.RELEASE:compile
+[INFO] |  +- io.undertow:undertow-websockets-jsr:jar:2.0.26.Final:compile
+[INFO] |  |  \- org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:jar:1.1.4.Final:compile
+[INFO] |  +- javax.servlet:javax.servlet-api:jar:4.0.1:compile
+[INFO] |  \- org.glassfish:javax.el:jar:3.0.0:compile
+[INFO] +- io.undertow:undertow-core:jar:2.0.26.Final:compile
+[INFO] |  +- org.jboss.logging:jboss-logging:jar:3.4.0.Final:compile
+[INFO] |  +- org.jboss.xnio:xnio-api:jar:3.3.8.Final:compile
+[INFO] |  \- org.jboss.xnio:xnio-nio:jar:3.3.8.Final:runtime
+[INFO] \- io.undertow:undertow-servlet:jar:2.0.26.Final:compile
+[INFO]    +- org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:jar:1.0.0.Final:compile
+[INFO]    \- org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.2.Final:compile
+[INFO] 
+[INFO] --------< nz.net.osnz.composite:composite-spring-boot-webflux >---------
+[INFO] Building composite-spring-boot-webflux 5.16-SNAPSHOT             [16/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-boot-webflux ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-webflux/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-boot-webflux ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-webflux/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-boot-webflux ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-boot-webflux ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-webflux/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-boot-webflux ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-boot-webflux ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-boot-webflux ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-boot-webflux ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-webflux/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-webflux/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-boot-webflux ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-webflux/target/composite-spring-boot-webflux-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-boot-webflux ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-boot-webflux ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-webflux/target/composite-spring-boot-webflux-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-webflux/5.16-SNAPSHOT/composite-spring-boot-webflux-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-webflux/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-webflux/5.16-SNAPSHOT/composite-spring-boot-webflux-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-webflux/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-webflux/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-webflux/5.16-SNAPSHOT/composite-spring-boot-webflux-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-webflux/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-webflux/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-webflux/5.16-SNAPSHOT/composite-spring-boot-webflux-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-boot-webflux ---
+[INFO] nz.net.osnz.composite:composite-spring-boot-webflux:jar:5.16-SNAPSHOT
+[INFO] \- org.springframework.boot:spring-boot-starter-webflux:jar:2.1.8.RELEASE:compile
+[INFO]    +- org.springframework.boot:spring-boot-starter:jar:2.1.8.RELEASE:compile
+[INFO]    |  +- org.springframework.boot:spring-boot:jar:2.1.8.RELEASE:compile
+[INFO]    |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.1.8.RELEASE:compile
+[INFO]    |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO]    |  \- org.yaml:snakeyaml:jar:1.23:runtime
+[INFO]    +- org.springframework.boot:spring-boot-starter-json:jar:2.1.8.RELEASE:compile
+[INFO]    +- org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.8.RELEASE:compile
+[INFO]    |  +- io.projectreactor.netty:reactor-netty:jar:0.8.11.RELEASE:compile
+[INFO]    |  |  +- io.netty:netty-codec-http:jar:4.1.39.Final:compile
+[INFO]    |  |  |  +- io.netty:netty-common:jar:4.1.39.Final:compile
+[INFO]    |  |  |  +- io.netty:netty-buffer:jar:4.1.39.Final:compile
+[INFO]    |  |  |  +- io.netty:netty-transport:jar:4.1.39.Final:compile
+[INFO]    |  |  |  |  \- io.netty:netty-resolver:jar:4.1.39.Final:compile
+[INFO]    |  |  |  \- io.netty:netty-codec:jar:4.1.39.Final:compile
+[INFO]    |  |  +- io.netty:netty-codec-http2:jar:4.1.39.Final:compile
+[INFO]    |  |  +- io.netty:netty-handler:jar:4.1.39.Final:compile
+[INFO]    |  |  +- io.netty:netty-handler-proxy:jar:4.1.39.Final:compile
+[INFO]    |  |  |  \- io.netty:netty-codec-socks:jar:4.1.39.Final:compile
+[INFO]    |  |  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.39.Final:compile
+[INFO]    |  |  |  \- io.netty:netty-transport-native-unix-common:jar:4.1.39.Final:compile
+[INFO]    |  |  \- io.projectreactor:reactor-core:jar:3.2.12.RELEASE:compile
+[INFO]    |  |     \- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+[INFO]    |  \- org.glassfish:javax.el:jar:3.0.0:compile
+[INFO]    +- org.hibernate.validator:hibernate-validator:jar:6.0.17.Final:compile
+[INFO]    |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO]    |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO]    |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO]    \- org.synchronoss.cloud:nio-multipart-parser:jar:1.1.0:compile
+[INFO]       \- org.synchronoss.cloud:nio-stream-storage:jar:1.1.3:compile
+[INFO] 
+[INFO] ----------< nz.net.osnz.composite:composite-spring-boot-test >----------
+[INFO] Building composite-spring-boot-test 5.16-SNAPSHOT                [17/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-boot-test ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-test/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-boot-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-test/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-boot-test ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-boot-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-test/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-boot-test ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-boot-test ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-boot-test ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-boot-test ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-test/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-test/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-boot-test ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-test/target/composite-spring-boot-test-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-boot-test ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-boot-test ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-test/target/composite-spring-boot-test-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-test/5.16-SNAPSHOT/composite-spring-boot-test-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-test/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-test/5.16-SNAPSHOT/composite-spring-boot-test-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-test/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-test/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-test/5.16-SNAPSHOT/composite-spring-boot-test-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-test/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-test/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-test/5.16-SNAPSHOT/composite-spring-boot-test-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-boot-test ---
+[INFO] nz.net.osnz.composite:composite-spring-boot-test:jar:5.16-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-test:jar:2.1.8.RELEASE:compile
+[INFO] +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.8.RELEASE:compile
+[INFO] |  \- org.springframework.boot:spring-boot-autoconfigure:jar:2.1.8.RELEASE:compile
+[INFO] \- org.springframework.boot:spring-boot-starter-test:jar:2.1.8.RELEASE:compile
+[INFO]    +- org.springframework.boot:spring-boot-starter:jar:2.1.8.RELEASE:compile
+[INFO]    |  +- org.springframework.boot:spring-boot:jar:2.1.8.RELEASE:compile
+[INFO]    |  |  \- org.springframework:spring-context:jar:5.1.9.RELEASE:compile
+[INFO]    |  |     +- org.springframework:spring-aop:jar:5.1.9.RELEASE:compile
+[INFO]    |  |     +- org.springframework:spring-beans:jar:5.1.9.RELEASE:compile
+[INFO]    |  |     \- org.springframework:spring-expression:jar:5.1.9.RELEASE:compile
+[INFO]    |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO]    |  \- org.yaml:snakeyaml:jar:1.23:runtime
+[INFO]    +- com.jayway.jsonpath:json-path:jar:2.4.0:compile
+[INFO]    |  \- net.minidev:json-smart:jar:2.3:compile
+[INFO]    |     \- net.minidev:accessors-smart:jar:1.2:compile
+[INFO]    |        \- org.ow2.asm:asm:jar:5.0.4:compile
+[INFO]    +- org.skyscreamer:jsonassert:jar:1.5.0:compile
+[INFO]    |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:compile
+[INFO]    \- org.xmlunit:xmlunit-core:jar:2.6.3:compile
+[INFO]       \- javax.xml.bind:jaxb-api:jar:2.3.0:compile
+[INFO] 
+[INFO] --------< nz.net.osnz.composite:composite-spring-boot-logging >---------
+[INFO] Building composite-spring-boot-logging 5.16-SNAPSHOT             [18/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from local-nexus: http://localhost:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-logging/maven-metadata.xml
+Progress (1): 3.6 kB                    Downloaded from local-nexus: http://localhost:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-logging/maven-metadata.xml (3.6 kB at 1.7 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-boot-logging ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-logging/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-boot-logging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-logging/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-boot-logging ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-boot-logging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-logging/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-boot-logging ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-boot-logging ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-boot-logging ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-boot-logging ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-logging/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-logging/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-boot-logging ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-logging/target/composite-spring-boot-logging-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-boot-logging ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-boot-logging ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-logging/target/composite-spring-boot-logging-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-logging/5.16-SNAPSHOT/composite-spring-boot-logging-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-logging/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-logging/5.16-SNAPSHOT/composite-spring-boot-logging-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-logging/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-logging/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-logging/5.16-SNAPSHOT/composite-spring-boot-logging-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-logging/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-logging/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-logging/5.16-SNAPSHOT/composite-spring-boot-logging-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-boot-logging ---
+[INFO] nz.net.osnz.composite:composite-spring-boot-logging:jar:5.16-SNAPSHOT
+[INFO] \- org.springframework.boot:spring-boot-starter-logging:jar:2.1.8.RELEASE:compile
+[INFO] 
+[INFO] ---------< nz.net.osnz.composite:composite-spring-boot-log4j2 >---------
+[INFO] Building composite-spring-boot-log4j2 5.16-SNAPSHOT              [19/20]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from local-nexus: http://localhost:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-log4j2/maven-metadata.xml
+Progress (1): 3.0 kB                    Downloaded from local-nexus: http://localhost:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-log4j2/maven-metadata.xml (3.0 kB at 5.7 kB/s)
+Downloading from local-nexus: http://localhost:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-log4j2/2.1.8.RELEASE/spring-boot-starter-log4j2-2.1.8.RELEASE.pom
+Progress (1): 2.7 kB                    Downloaded from local-nexus: http://localhost:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-log4j2/2.1.8.RELEASE/spring-boot-starter-log4j2-2.1.8.RELEASE.pom (2.7 kB at 6.0 kB/s)
+Downloading from local-nexus: http://localhost:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-log4j2/2.1.8.RELEASE/spring-boot-starter-log4j2-2.1.8.RELEASE.jar
+Progress (1): 406 B                   Downloaded from local-nexus: http://localhost:8081/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-log4j2/2.1.8.RELEASE/spring-boot-starter-log4j2-2.1.8.RELEASE.jar (406 B at 1.1 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-boot-log4j2 ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-log4j2/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ composite-spring-boot-log4j2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-log4j2/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ composite-spring-boot-log4j2 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ composite-spring-boot-log4j2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-log4j2/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ composite-spring-boot-log4j2 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ composite-spring-boot-log4j2 ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-boot-log4j2 ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-boot-log4j2 ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-log4j2/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-log4j2/dependency.tree
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ composite-spring-boot-log4j2 ---
+[INFO] Building jar: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-log4j2/target/composite-spring-boot-log4j2-5.16-SNAPSHOT.jar
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-boot-log4j2 ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-boot-log4j2 ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-log4j2/target/composite-spring-boot-log4j2-5.16-SNAPSHOT.jar to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-log4j2/5.16-SNAPSHOT/composite-spring-boot-log4j2-5.16-SNAPSHOT.jar
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-log4j2/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-log4j2/5.16-SNAPSHOT/composite-spring-boot-log4j2-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-log4j2/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-log4j2/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-log4j2/5.16-SNAPSHOT/composite-spring-boot-log4j2-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/composite-spring-boot-log4j2/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-boot-log4j2/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-boot-log4j2/5.16-SNAPSHOT/composite-spring-boot-log4j2-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-boot-log4j2 ---
+[INFO] nz.net.osnz.composite:composite-spring-boot-log4j2:jar:5.16-SNAPSHOT
+[INFO] \- org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.8.RELEASE:compile
+[INFO] 
+[INFO] -----------< nz.net.osnz.composite:composite-spring-reactor >-----------
+[INFO] Building composite-spring-reactor 5.16-SNAPSHOT                  [20/20]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ composite-spring-reactor ---
+[INFO] Deleting /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:list (generate-dep-list) @ composite-spring-reactor ---
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (generate-dep-tree) @ composite-spring-reactor ---
+[INFO] Wrote dependency tree to: /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-reactor/dependency.tree
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:attach-artifact (attach-artifacts) @ composite-spring-reactor ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ composite-spring-reactor ---
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/pom.xml to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-reactor/5.16-SNAPSHOT/composite-spring-reactor-5.16-SNAPSHOT.pom
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-reactor/dependency.tree to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-reactor/5.16-SNAPSHOT/composite-spring-reactor-5.16-SNAPSHOT-dependency.tree
+[INFO] Installing /Volumes/data/workspaces/my-osnz-bootstrap/composite/composite-spring-reactor/target/classes/META-INF/maven/nz.net.osnz.composite/composite-spring-reactor/dependency.list to /Users/kdeng/.m2/my-repository/nz/net/osnz/composite/composite-spring-reactor/5.16-SNAPSHOT/composite-spring-reactor-5.16-SNAPSHOT-dependency.list
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:tree (default-cli) @ composite-spring-reactor ---
+[INFO] nz.net.osnz.composite:composite-spring-reactor:pom:5.16-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for composite-spring-reactor 5.16-SNAPSHOT:
+[INFO] 
+[INFO] composite-spring-parent ............................ SUCCESS [  0.873 s]
+[INFO] composite-spring-core .............................. SUCCESS [  0.665 s]
+[INFO] composite-spring-aspects ........................... SUCCESS [  0.066 s]
+[INFO] composite-spring-data-jpa .......................... SUCCESS [  0.136 s]
+[INFO] composite-spring-jdbc .............................. SUCCESS [  0.111 s]
+[INFO] composite-spring-web ............................... SUCCESS [  0.098 s]
+[INFO] composite-spring-webmvc ............................ SUCCESS [  0.101 s]
+[INFO] composite-spring-webflux ........................... SUCCESS [  0.102 s]
+[INFO] composite-spring-test .............................. SUCCESS [  0.211 s]
+[INFO] composite-spring-boot .............................. SUCCESS [  0.166 s]
+[INFO] composite-spring-boot-devtools ..................... SUCCESS [  0.054 s]
+[INFO] composite-spring-boot-jetty ........................ SUCCESS [  0.537 s]
+[INFO] composite-spring-boot-loader ....................... SUCCESS [  0.046 s]
+[INFO] composite-spring-boot-tomcat ....................... SUCCESS [  0.086 s]
+[INFO] composite-spring-boot-undertow ..................... SUCCESS [  0.108 s]
+[INFO] composite-spring-boot-webflux ...................... SUCCESS [  0.128 s]
+[INFO] composite-spring-boot-test ......................... SUCCESS [  0.113 s]
+[INFO] composite-spring-boot-logging ...................... SUCCESS [  2.287 s]
+[INFO] composite-spring-boot-log4j2 ....................... SUCCESS [  1.443 s]
+[INFO] composite-spring-reactor ........................... SUCCESS [  0.027 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.620 s
+[INFO] Finished at: 2019-09-10T11:36:31+12:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>nz.net.osnz.parent</groupId>
+		<artifactId>central-parent</artifactId>
+		<version>6.2</version>
+	</parent>
+
+	<groupId>nz.net.osnz.composite</groupId>
+	<artifactId>composite-jetty</artifactId>
+	<version>3.13-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>composite-jetty</name>
+	<description>Puts all of the Jetty dependencies in one place for reuse by the different artifacts.</description>
+	<url>https://github.com/OpenSourceNZ/composite-jetty</url>
+
+	<properties>
+		<java.version>1.8</java.version>
+		<jetty.version>9.4.26.v20200117</jetty.version>
+		<jetty-jsp.version>9.2.29.v20191105</jetty-jsp.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-server</artifactId>
+			<version>${jetty.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-servlets</artifactId>
+			<version>${jetty.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-webapp</artifactId>
+			<version>${jetty.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-jsp</artifactId>
+			<version>${jetty-jsp.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-util</artifactId>
+			<version>${jetty.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty.websocket</groupId>
+			<artifactId>websocket-server</artifactId>
+			<version>${jetty.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty.websocket</groupId>
+			<artifactId>javax-websocket-server-impl</artifactId>
+			<version>${jetty.version}</version>
+		</dependency>
+	</dependencies>
+
+	<scm>
+		<url>https://github.com/OpenSourceNZ/composite-jetty</url>
+		<connection>scm:git:git@github.com/OpenSourceNZ/composite-jetty.git</connection>
+		<developerConnection>scm:git:git@github.com:OpenSourceNZ/composite-jetty.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
+</project>

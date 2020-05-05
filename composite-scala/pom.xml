@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>nz.net.osnz.parent</groupId>
+    <artifactId>central-parent</artifactId>
+    <version>6.2</version>
+  </parent>
+
+  <groupId>nz.net.osnz.composite</groupId>
+  <artifactId>composite-scala</artifactId>
+  <version>1.5-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <properties>
+    <scala.version>2.13.0</scala.version>
+  </properties>
+
+  <name>composite-scala</name>
+  <description>composite-scala</description>
+  <url>https://github.com/OpenSourceNZ/composite-scala</url>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>${scala.version}</version>
+    </dependency>
+  </dependencies>
+
+  <scm>
+    <url>https://github.com/OpenSourceNZ/composite-scala</url>
+    <connection>scm:git:git@github.com/OpenSourceNZ/composite-scala.git</connection>
+    <developerConnection>scm:git:git@github.com:OpenSourceNZ/composite-scala.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+</project>
