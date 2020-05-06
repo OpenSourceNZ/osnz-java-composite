@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>io.osnz.parent</groupId>
+    <artifactId>osnz-parent</artifactId>
+    <version>2</version>
+  </parent>
+
+  <groupId>nz.net.osnz.composite</groupId>
+  <artifactId>composite-netty</artifactId>
+  <version>1.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <name>composite-netty</name>
+  <description>composite-netty</description>
+
+  <properties>
+    <netty.version>4.1.49.Final</netty.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-all</artifactId>
+      <version>[${netty.version}]</version>
+    </dependency>
+  </dependencies>
+
+  <scm>
+    <url>https://github.com/OpenSourceNZ/osnz-java-composite</url>
+    <connection>scm:git:git@github.com/OpenSourceNZ/osnz-java-composite.git</connection>
+    <developerConnection>scm:git:git@github.com:OpenSourceNZ/osnz-java-composite.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>io.repaint.maven</groupId>
+        <artifactId>tiles-maven-plugin</artifactId>
+        <version>2.16</version>
+        <extensions>true</extensions>
+        <configuration>
+          <tiles>
+            <tile>io.osnz.tiles:release-tile:[1,)</tile>
+          </tiles>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

@@ -61,11 +61,27 @@
 		</dependency>
 	</dependencies>
 
-	<scm>
-		<url>https://github.com/OpenSourceNZ/composite-jetty</url>
-		<connection>scm:git:git@github.com/OpenSourceNZ/composite-jetty.git</connection>
-		<developerConnection>scm:git:git@github.com:OpenSourceNZ/composite-jetty.git</developerConnection>
-		<tag>HEAD</tag>
-	</scm>
+  <scm>
+    <url>https://github.com/OpenSourceNZ/osnz-java-composite</url>
+    <connection>scm:git:git@github.com/OpenSourceNZ/osnz-java-composite.git</connection>
+    <developerConnection>scm:git:git@github.com:OpenSourceNZ/osnz-java-composite.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>io.repaint.maven</groupId>
+        <artifactId>tiles-maven-plugin</artifactId>
+        <version>2.16</version>
+        <extensions>true</extensions>
+        <configuration>
+          <tiles>
+            <tile>io.osnz.tiles:release-tile:[1,)</tile>
+          </tiles>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>

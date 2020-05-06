@@ -16,14 +16,14 @@
   <description>composite-jersey-parent</description>
 
   <properties>
-    <jersey.version>2.29.1</jersey.version>
+    <jersey.version>3.0.0-M1</jersey.version>
     <netty.version>4.1.43.Final</netty.version>
   </properties>
 
   <scm>
-    <connection>scm:git:https://github.com/kdeng/osnz-java.git</connection>
-    <developerConnection>scm:git:https://github.com/kdeng/osnz-java.git</developerConnection>
-    <url>https://github.com/kdeng/osnz-java</url>
+    <url>https://github.com/OpenSourceNZ/osnz-java-composite</url>
+    <connection>scm:git:git@github.com/OpenSourceNZ/osnz-java-composite.git</connection>
+    <developerConnection>scm:git:git@github.com:OpenSourceNZ/osnz-java-composite.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
