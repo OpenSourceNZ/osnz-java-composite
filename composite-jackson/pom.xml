@@ -2,9 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>nz.net.osnz.parent</groupId>
-    <artifactId>central-parent</artifactId>
-    <version>6.1</version>
+    <groupId>io.osnz.parent</groupId>
+    <artifactId>osnz-parent</artifactId>
+    <version>2</version>
   </parent>
 
   <groupId>nz.net.osnz.composite</groupId>
@@ -14,10 +14,10 @@
 
   <name>composite-jackson</name>
   <description>Collection of the standard Jackson dependencies</description>
-  <url>https://github.com/OpenSourceNZ/composite-jackson</url>
+  <url>https://github.com/OpenSourceNZ/osnz-java-composite</url>
 
   <properties>
-    <jackson.version>[2.10.2]</jackson.version>
+    <jackson.version>[2.11.0]</jackson.version>
     <java.version>1.8</java.version>
   </properties>
 
@@ -94,10 +94,26 @@
   </dependencies>
 
   <scm>
-    <url>https://github.com/OpenSourceNZ/composite-jackson</url>
-    <connection>scm:git:git@github.com:OpenSourceNZ/composite-jackson.git</connection>
-    <developerConnection>scm:git:git@github.com:OpenSourceNZ/composite-jackson.git</developerConnection>
+    <url>https://github.com/OpenSourceNZ/osnz-java-composite</url>
+    <connection>scm:git:git@github.com/OpenSourceNZ/osnz-java-composite.git</connection>
+    <developerConnection>scm:git:git@github.com:OpenSourceNZ/osnz-java-composite.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>io.repaint.maven</groupId>
+        <artifactId>tiles-maven-plugin</artifactId>
+        <version>2.16</version>
+        <extensions>true</extensions>
+        <configuration>
+          <tiles>
+            <tile>io.osnz.tiles:release-tile:[1,)</tile>
+          </tiles>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>
