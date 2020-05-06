@@ -3,9 +3,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>nz.net.osnz.parent</groupId>
-    <artifactId>central-parent</artifactId>
-    <version>6.1</version>
+    <groupId>io.osnz.parent</groupId>
+    <artifactId>osnz-parent</artifactId>
+    <version>1</version>
   </parent>
 
   <groupId>nz.net.osnz.composite</groupId>
@@ -15,15 +15,15 @@
 
   <properties>
     <java.version>1.8</java.version>
-    <groovy-all.version>2.5.9</groovy-all.version>
+    <groovy-all.version>3.0.3</groovy-all.version>
   </properties>
 
-  <name>Open Source New Zealand : composite-groovy</name>
+  <name>composite-groovy</name>
   <description>
     This holds onto the version of Groovy that we are using in our projects. If we migrate the version of Grails, updating it in one place
     automatically updates every other project that uses Groovy and allows us to keep in sync with Grails.
   </description>
-  <url>https://github.com/OpenSourceNZ/composite-groovy</url>
+  <url>https://github.com/OpenSourceNZ/osnz-java-composite/composite-groovy</url>
 
   <dependencies>
     <dependency>
@@ -34,15 +34,11 @@
       <exclusions>
         <exclusion>
           <groupId>org.codehaus.groovy</groupId>
+          <artifactId>groovy-ant</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.codehaus.groovy</groupId>
           <artifactId>groovy-testng</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>org.codehaus.groovy</groupId>
-          <artifactId>groovy-test</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>org.codehaus.groovy</groupId>
-          <artifactId>groovy-test-junit5</artifactId>
         </exclusion>
         <exclusion>
           <groupId>org.codehaus.groovy</groupId>
@@ -60,15 +56,43 @@
           <groupId>org.codehaus.groovy</groupId>
           <artifactId>groovy-swing</artifactId>
         </exclusion>
+        <exclusion>
+          <groupId>org.junit.platform</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.junit.jupiter</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+        </exclusion>
       </exclusions>
     </dependency>
   </dependencies>
 
   <scm>
-    <url>https://github.com/OpenSourceNZ/composite-groovy</url>
-    <connection>scm:git:git@github.com/OpenSourceNZ/composite-groovy.git</connection>
-    <developerConnection>scm:git:git@github.com:OpenSourceNZ/composite-groovy.git</developerConnection>
+    <url>https://github.com/OpenSourceNZ/osnz-java-composite</url>
+    <connection>scm:git:git@github.com/OpenSourceNZ/osnz-java-composite.git</connection>
+    <developerConnection>scm:git:git@github.com:OpenSourceNZ/osnz-java-composite.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>io.repaint.maven</groupId>
+        <artifactId>tiles-maven-plugin</artifactId>
+        <version>2.16</version>
+        <extensions>true</extensions>
+        <configuration>
+          <tiles>
+            <tile>io.osnz.tiles:release-tile:[1,)</tile>
+          </tiles>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>
