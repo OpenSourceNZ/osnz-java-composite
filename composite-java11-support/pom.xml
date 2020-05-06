@@ -10,7 +10,7 @@
 
   <groupId>nz.net.osnz.composite</groupId>
   <artifactId>composite-java11-support</artifactId>
-  <version>1.2</version>
+  <version>1.3-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>composite-java11-support</name>
@@ -52,7 +52,7 @@
     <url>https://github.com/OpenSourceNZ/osnz-java-composite</url>
     <connection>scm:git:git@github.com/OpenSourceNZ/osnz-java-composite.git</connection>
     <developerConnection>scm:git:git@github.com:OpenSourceNZ/osnz-java-composite.git</developerConnection>
-    <tag>composite-java11-support-1.2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <build>
