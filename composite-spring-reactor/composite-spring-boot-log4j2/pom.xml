@@ -11,10 +11,8 @@
   <artifactId>composite-spring-boot-log4j2</artifactId>
   <version>5.21-SNAPSHOT</version>
   <packaging>jar</packaging>
-
   <name>composite-spring-boot-log4j2</name>
   <description>Collection of the standard spring boot log4j2 dependencies</description>
-  <url>https://github.com/OpenSourceNZ/composite-spring-reactor</url>
 
   <dependencies>
     <dependency>

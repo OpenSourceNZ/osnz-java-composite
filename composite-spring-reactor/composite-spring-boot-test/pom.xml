@@ -11,10 +11,8 @@
   <artifactId>composite-spring-boot-test</artifactId>
   <version>5.21-SNAPSHOT</version>
   <packaging>jar</packaging>
-
   <name>composite-spring-boot-test</name>
   <description>Collection of the standard spring boot test dependencies</description>
-  <url>https://github.com/OpenSourceNZ/composite-spring-reactor</url>
 
   <dependencies>
     <dependency>

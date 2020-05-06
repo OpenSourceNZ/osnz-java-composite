@@ -11,10 +11,8 @@
   <artifactId>composite-spring-boot-webflux</artifactId>
   <version>5.21-SNAPSHOT</version>
   <packaging>jar</packaging>
-
   <name>composite-spring-boot-webflux</name>
   <description>Collection of the standard spring boot WebFlux dependencies</description>
-  <url>https://github.com/OpenSourceNZ/composite-spring-reactor</url>
 
   <dependencies>
     <dependency>

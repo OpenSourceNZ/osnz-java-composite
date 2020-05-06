@@ -40,6 +40,7 @@
     <module>composite-spring-boot-test</module>
     <module>composite-spring-boot-logging</module>
     <module>composite-spring-boot-log4j2</module>
+    <module>composite-spring-boot-thymeleaf</module>
   </modules>
 
   <scm>

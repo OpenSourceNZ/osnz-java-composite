@@ -12,12 +12,10 @@
   <version>5.21-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>composite-spring-jdbc</name>
-
   <description>
     Collection of the standard spring jdbc dependencies, which
     includes spring-jdbc, spring-data-jpa, spring-tx, and spring-orm.
   </description>
-  <url>https://github.com/OpenSourceNZ/composite-spring-reactor</url>
 
   <dependencies>
     <dependency>

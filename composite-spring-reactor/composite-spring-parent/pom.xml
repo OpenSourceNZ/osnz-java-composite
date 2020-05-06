@@ -14,7 +14,7 @@
 
   <name>composite-spring-parent</name>
   <description>Composite Spring Parent</description>
-  <url>https://github.com/OpenSourceNZ/composite-spring-reactor/composite-spring-parent</url>
+  <url>https://github.com/OpenSourceNZ/osnz-java-composite</url>
 
   <properties>
     <java.version>1.8</java.version>
@@ -31,10 +31,18 @@
     <jstl.version>1.2</jstl.version>
 
     <!-- undertow -->
-    <undertow.version>2.6.0.Final</undertow.version>
+    <undertow.version>2.1.0.Final</undertow.version>
 
     <!-- spring test -->
     <composite-unit-test.version>[6,7)</composite-unit-test.version>
+
+    <!-- thymelead -->
+    <thymeleaf.version>3.0.11.RELEASE</thymeleaf.version>
+    <thymeleaf-layout-dialect.version>2.4.1</thymeleaf-layout-dialect.version>
+    <thymeleaf-extras-springsecurity5.version>3.0.4.RELEASE</thymeleaf-extras-springsecurity5.version>
+    <nekohtml.version>1.9.22</nekohtml.version>
+
+
   </properties>
 
   <scm>

@@ -13,7 +13,6 @@
   <packaging>jar</packaging>
   <name>composite-spring-boot-undertow</name>
   <description>Collection of the standard spring boot Undertow dependencies</description>
-  <url>https://github.com/OpenSourceNZ/composite-spring-reactor</url>
 
   <dependencies>
     <dependency>

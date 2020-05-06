@@ -11,10 +11,8 @@
   <artifactId>composite-spring-web</artifactId>
   <version>5.21-SNAPSHOT</version>
   <packaging>jar</packaging>
-
   <name>composite-spring-web</name>
   <description>Collection of the standard spring web dependencies</description>
-  <url>https://github.com/OpenSourceNZ/composite-spring-reactor</url>
 
   <dependencies>
 

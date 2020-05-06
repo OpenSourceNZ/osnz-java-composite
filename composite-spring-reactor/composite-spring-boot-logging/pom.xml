@@ -11,10 +11,8 @@
   <artifactId>composite-spring-boot-logging</artifactId>
   <version>5.21-SNAPSHOT</version>
   <packaging>jar</packaging>
-
   <name>composite-spring-boot-logging</name>
   <description>Collection of the standard spring boot logging dependencies</description>
-  <url>https://github.com/OpenSourceNZ/composite-spring-reactor</url>
 
   <dependencies>
     <dependency>

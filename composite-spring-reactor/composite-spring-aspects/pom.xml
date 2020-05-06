@@ -11,10 +11,8 @@
   <artifactId>composite-spring-aspects</artifactId>
   <version>5.21-SNAPSHOT</version>
   <packaging>jar</packaging>
-
   <name>composite-spring-aspects</name>
   <description>Collection of the standard spring aspect dependencies</description>
-  <url>https://github.com/OpenSourceNZ/composite-spring-reactor</url>
 
   <dependencies>
     <dependency>

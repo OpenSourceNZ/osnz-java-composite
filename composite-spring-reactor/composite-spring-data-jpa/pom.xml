@@ -13,7 +13,6 @@
   <packaging>jar</packaging>
   <name>composite-spring-data-jpa</name>
   <description>Collection of the standard spring data JPA dependencies</description>
-  <url>https://github.com/OpenSourceNZ/composite-spring-data-jpa</url>
 
   <dependencies>
     <dependency>

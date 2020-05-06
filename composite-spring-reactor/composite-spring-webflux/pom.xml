@@ -13,7 +13,6 @@
   <packaging>jar</packaging>
   <name>composite-spring-webflux</name>
   <description>Collection of the standard Spring Web Flux dependencies</description>
-  <url>https://github.com/OpenSourceNZ/composite-spring-reactor</url>
 
   <dependencies>
 
