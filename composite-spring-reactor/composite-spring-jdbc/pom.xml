@@ -4,12 +4,12 @@
   <parent>
     <groupId>nz.net.osnz.composite</groupId>
     <artifactId>composite-spring-parent</artifactId>
-    <version>5.21-SNAPSHOT</version>
+    <version>5.21</version>
     <relativePath>../composite-spring-parent</relativePath>
   </parent>
 
   <artifactId>composite-spring-jdbc</artifactId>
-  <version>5.21-SNAPSHOT</version>
+  <version>5.21</version>
   <packaging>jar</packaging>
   <name>composite-spring-jdbc</name>
   <description>
