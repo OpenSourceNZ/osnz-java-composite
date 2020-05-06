@@ -9,6 +9,7 @@
     <relativePath>../composite-jersey-parent/pom.xml</relativePath>
   </parent>
 
+  <groupId>nz.net.osnz.composite</groupId>
   <artifactId>composite-jersey-media</artifactId>
   <version>1.2-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -75,13 +76,5 @@
       </exclusions>
     </dependency>
   </dependencies>
-
-  <scm>
-    <url>https://github.com/OpenSourceNZ/osnz-java-composite</url>
-    <connection>scm:git:git@github.com/OpenSourceNZ/osnz-java-composite.git</connection>
-    <developerConnection>scm:git:git@github.com:OpenSourceNZ/osnz-java-composite.git</developerConnection>
-    <tag>HEAD</tag>
-  </scm>
-
 </project>
 

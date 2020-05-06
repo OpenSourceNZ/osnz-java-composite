@@ -31,5 +31,21 @@
     <tag>HEAD</tag>
   </scm>
 
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>io.repaint.maven</groupId>
+        <artifactId>tiles-maven-plugin</artifactId>
+        <version>2.16</version>
+        <extensions>true</extensions>
+        <configuration>
+          <tiles>
+            <tile>io.osnz.tiles:release-tile:[1,)</tile>
+          </tiles>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
 </project>
 
