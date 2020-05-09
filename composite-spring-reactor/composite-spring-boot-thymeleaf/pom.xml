@@ -4,13 +4,13 @@
   <parent>
     <groupId>nz.net.osnz.composite</groupId>
     <artifactId>composite-spring-parent</artifactId>
-    <version>5.22-SNAPSHOT</version>
+    <version>5.22</version>
     <relativePath>../composite-spring-parent</relativePath>
   </parent>
 
   <groupId>nz.net.osnz.composite</groupId>
   <artifactId>composite-spring-boot-thymeleaf</artifactId>
-  <version>5.22-SNAPSHOT</version>
+  <version>5.22</version>
   <packaging>jar</packaging>
   <name>composite-spring-boot-thymeleaf</name>
   <description>Collection of the standard Thymeleaf dependencies</description>
