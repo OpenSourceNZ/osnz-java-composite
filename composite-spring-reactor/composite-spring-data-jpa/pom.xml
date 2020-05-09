@@ -15,11 +15,13 @@
   <description>Collection of the standard spring data JPA dependencies</description>
 
   <dependencies>
+
     <dependency>
       <groupId>nz.net.osnz.composite</groupId>
       <artifactId>composite-spring-core</artifactId>
       <version>[${project.version}]</version>
     </dependency>
+
     <dependency>
       <groupId>org.springframework.data</groupId>
       <artifactId>spring-data-jpa</artifactId>
