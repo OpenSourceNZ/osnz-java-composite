@@ -9,7 +9,7 @@
 
   <groupId>nz.net.osnz.composite</groupId>
   <artifactId>composite-jackson</artifactId>
-  <version>2.16</version>
+  <version>2.17-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>composite-jackson</name>
@@ -97,7 +97,7 @@
     <url>https://github.com/OpenSourceNZ/osnz-java-composite</url>
     <connection>scm:git:git@github.com/OpenSourceNZ/osnz-java-composite.git</connection>
     <developerConnection>scm:git:git@github.com:OpenSourceNZ/osnz-java-composite.git</developerConnection>
-    <tag>composite-jackson-2.16</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <build>
