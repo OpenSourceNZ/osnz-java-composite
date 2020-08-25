@@ -18,7 +18,7 @@
   <url>https://github.com/OpenSourceNZ/osnz-java-composite</url>
 
   <properties>
-    <kotlin.version>1.3.72</kotlin.version>
+    <kotlin.version>1.4.0</kotlin.version>
   </properties>
 
   <dependencies>
