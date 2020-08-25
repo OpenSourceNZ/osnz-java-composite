@@ -4,12 +4,12 @@
   <parent>
     <groupId>nz.net.osnz.composite</groupId>
     <artifactId>composite-spring-parent</artifactId>
-    <version>5.23</version>
+    <version>5.24-SNAPSHOT</version>
     <relativePath>../composite-spring-parent</relativePath>
   </parent>
 
   <artifactId>composite-spring-boot</artifactId>
-  <version>5.23</version>
+  <version>5.24-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>composite-spring-boot</name>
   <description>Collection of the standard spring boot dependencies</description>
