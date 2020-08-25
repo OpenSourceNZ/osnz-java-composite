@@ -4,12 +4,12 @@
   <parent>
     <groupId>nz.net.osnz.composite</groupId>
     <artifactId>composite-spring-parent</artifactId>
-    <version>5.24-SNAPSHOT</version>
+    <version>5.24</version>
     <relativePath>../composite-spring-parent/pom.xml</relativePath>
   </parent>
 
   <artifactId>composite-spring-webflux</artifactId>
-  <version>5.24-SNAPSHOT</version>
+  <version>5.24</version>
   <packaging>jar</packaging>
   <name>composite-spring-webflux</name>
   <description>Collection of the standard Spring Web Flux dependencies</description>
