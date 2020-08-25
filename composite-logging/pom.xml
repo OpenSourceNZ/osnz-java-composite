@@ -10,7 +10,7 @@
 
   <groupId>nz.net.osnz.composite</groupId>
   <artifactId>composite-logging</artifactId>
-  <version>5.5-SNAPSHOT</version>
+  <version>5.5</version>
   <packaging>jar</packaging>
 
   <name>Open Source New Zealand - Composite logging</name>
@@ -54,6 +54,6 @@
     <url>https://github.com/OpenSourceNZ/composite-logging</url>
     <connection>scm:git:git@github.com:OpenSourceNZ/composite-logging.git</connection>
     <developerConnection>scm:git:git@github.com:OpenSourceNZ/composite-logging.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>composite-logging-5.5</tag>
   </scm>
 </project>
