@@ -5,12 +5,12 @@
   <parent>
     <groupId>nz.net.osnz.composite</groupId>
     <artifactId>composite-jersey-parent</artifactId>
-    <version>1.4</version>
+    <version>1.5-SNAPSHOT</version>
     <relativePath>../composite-jersey-parent/pom.xml</relativePath>
   </parent>
 
   <artifactId>composite-jersey-netty</artifactId>
-  <version>1.4</version>
+  <version>1.5-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>composite-jersey-netty</name>
   <description>composite-jersey-netty</description>
