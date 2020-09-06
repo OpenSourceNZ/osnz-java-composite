@@ -20,15 +20,5 @@
       <artifactId>spring-boot-starter-undertow</artifactId>
       <version>[${spring-boot.version}]</version>
     </dependency>
-    <dependency>
-      <groupId>io.undertow</groupId>
-      <artifactId>undertow-core</artifactId>
-      <version>[${undertow.version}]</version>
-    </dependency>
-    <dependency>
-      <groupId>io.undertow</groupId>
-      <artifactId>undertow-servlet</artifactId>
-      <version>[${undertow.version}]</version>
-    </dependency>
   </dependencies>
 </project>
