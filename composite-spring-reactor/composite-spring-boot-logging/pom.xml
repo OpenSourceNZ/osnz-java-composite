@@ -4,12 +4,12 @@
   <parent>
     <groupId>nz.net.osnz.composite</groupId>
     <artifactId>composite-spring-parent</artifactId>
-    <version>5.25</version>
+    <version>5.26-SNAPSHOT</version>
     <relativePath>../composite-spring-parent</relativePath>
   </parent>
 
   <artifactId>composite-spring-boot-logging</artifactId>
-  <version>5.25</version>
+  <version>5.26-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>composite-spring-boot-logging</name>
   <description>Collection of the standard spring boot logging dependencies</description>
