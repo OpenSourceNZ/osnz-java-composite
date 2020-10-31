@@ -18,7 +18,7 @@
   <url>https://github.com/OpenSourceNZ/osnz-java-composite</url>
 
   <properties>
-    <groovy-all.version>3.0.5</groovy-all.version>
+    <groovy-all.version>3.0.6</groovy-all.version>
     <spock-core.version>2.0-M3-groovy-3.0</spock-core.version>
   </properties>
 
