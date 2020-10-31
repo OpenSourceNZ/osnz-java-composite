@@ -4,12 +4,12 @@
   <parent>
     <groupId>nz.net.osnz.composite</groupId>
     <artifactId>composite-spring-parent</artifactId>
-    <version>5.26</version>
+    <version>5.27-SNAPSHOT</version>
     <relativePath>../composite-spring-parent</relativePath>
   </parent>
 
   <artifactId>composite-spring-aspects</artifactId>
-  <version>5.26</version>
+  <version>5.27-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>composite-spring-aspects</name>
   <description>Collection of the standard spring aspect dependencies</description>
