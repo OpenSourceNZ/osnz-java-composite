@@ -4,12 +4,12 @@
   <parent>
     <groupId>nz.net.osnz.composite</groupId>
     <artifactId>composite-spring-parent</artifactId>
-    <version>5.28-SNAPSHOT</version>
+    <version>5.28</version>
     <relativePath>../composite-spring-parent</relativePath>
   </parent>
 
   <artifactId>composite-spring-webmvc</artifactId>
-  <version>5.28-SNAPSHOT</version>
+  <version>5.28</version>
   <packaging>jar</packaging>
   <name>composite-spring-webmvc</name>
   <description>Collection of the standard Spring Web MVC dependencies</description>
