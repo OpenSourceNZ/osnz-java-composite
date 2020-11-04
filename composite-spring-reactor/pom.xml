@@ -36,6 +36,7 @@
     <module>composite-spring-boot-loader</module>
     <module>composite-spring-boot-tomcat</module>
     <module>composite-spring-boot-undertow</module>
+    <module>composite-spring-boot-web</module>
     <module>composite-spring-boot-webflux</module>
     <module>composite-spring-boot-test</module>
     <module>composite-spring-boot-logging</module>
