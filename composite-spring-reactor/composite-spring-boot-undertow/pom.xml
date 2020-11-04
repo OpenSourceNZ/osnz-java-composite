@@ -4,12 +4,12 @@
   <parent>
     <groupId>nz.net.osnz.composite</groupId>
     <artifactId>composite-spring-parent</artifactId>
-    <version>5.28</version>
+    <version>5.29-SNAPSHOT</version>
     <relativePath>../composite-spring-parent</relativePath>
   </parent>
 
   <artifactId>composite-spring-boot-undertow</artifactId>
-  <version>5.28</version>
+  <version>5.29-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>composite-spring-boot-undertow</name>
   <description>Collection of the standard spring boot Undertow dependencies</description>
