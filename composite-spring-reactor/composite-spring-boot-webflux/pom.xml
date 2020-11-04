@@ -4,12 +4,12 @@
   <parent>
     <groupId>nz.net.osnz.composite</groupId>
     <artifactId>composite-spring-parent</artifactId>
-    <version>5.27-SNAPSHOT</version>
+    <version>5.27</version>
     <relativePath>../composite-spring-parent</relativePath>
   </parent>
 
   <artifactId>composite-spring-boot-webflux</artifactId>
-  <version>5.27-SNAPSHOT</version>
+  <version>5.27</version>
   <packaging>jar</packaging>
   <name>composite-spring-boot-webflux</name>
   <description>Collection of the standard spring boot WebFlux dependencies</description>
