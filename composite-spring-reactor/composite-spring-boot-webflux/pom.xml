@@ -17,7 +17,7 @@
   <dependencies>
     <dependency>
       <groupId>nz.net.osnz.composite</groupId>
-      <artifactId>composite-spring-boot</artifactId>
+      <artifactId>composite-spring-boot-web</artifactId>
       <version>[${project.version}]</version>
     </dependency>
     <dependency>
