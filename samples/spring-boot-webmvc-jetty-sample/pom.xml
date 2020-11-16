@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>nz.net.osnz.composite.sample</groupId>
+    <artifactId>osnz-java-composite-sample-parent</artifactId>
+    <version>1.1-SNAPSHOT</version>
+    <relativePath>../osnz-java-composite-sample-parent/pom.xml</relativePath>
+  </parent>
+
+  <artifactId>spring-boot-webmvc-jetty-sample</artifactId>
+  <version>1.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>spring-boot-webmvc-jetty-sample</name>
+  <description>spring-boot-webmvc-jetty-sample</description>
+  <url>https://github.com/OpenSourceNZ/osnz-java-composite</url>
+
+  <dependencies>
+
+    <!-- core dependencies -->
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-spring-boot-web</artifactId>
+      <version>[${composite-spring.version}]</version>
+    </dependency>
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-spring-boot-jetty</artifactId>
+      <version>[${composite-spring.version}]</version>
+    </dependency>
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-spring-boot-log4j2</artifactId>
+      <version>[${composite-spring.version}]</version>
+    </dependency>
+
+    <!-- jackson dependencies -->
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-jackson</artifactId>
+      <version>[${composite-jackson.version}]</version>
+    </dependency>
+    <dependency>
+      <groupId>nz.net.osnz.common</groupId>
+      <artifactId>common-jackson</artifactId>
+      <version>[${common-jackson.version}]</version>
+    </dependency>
+
+    <!-- test scope -->
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-spring-boot-test</artifactId>
+      <version>[${composite-spring.version}]</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- spring boot devtools -->
+    <dependency>
+      <groupId>nz.net.osnz.composite</groupId>
+      <artifactId>composite-spring-boot-devtools</artifactId>
+      <version>[${composite-spring.version}]</version>
+      <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>[${lombok.version}]</version>
+      <scope>provided</scope>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>io.repaint.maven</groupId>
+        <artifactId>tiles-maven-plugin</artifactId>
+        <version>${tiles-maven-plugin.version}</version>
+        <extensions>true</extensions>
+        <configuration>
+          <filtering>false</filtering>
+          <tiles>
+            <tile>io.osnz.tiles:tile-java11:[1.1,2)</tile>
+          </tiles>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

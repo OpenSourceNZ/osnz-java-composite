@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>io.osnz.parent</groupId>
+    <artifactId>osnz-parent</artifactId>
+    <version>2</version>
+  </parent>
+
+  <groupId>nz.net.osnz.composite.sample</groupId>
+  <artifactId>osnz-java-composite-sample-parent</artifactId>
+  <version>1.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>osnz-java-composite-sample-parent</name>
+  <description>osnz-java-composite-sample-parent</description>
+  <url>https://github.com/OpenSourceNZ/osnz-java-composite</url>
+
+  <properties>
+    <java.version>11</java.version>
+    <composite-spring.version>5.30</composite-spring.version>
+    <common-jackson.version>2.2</common-jackson.version>
+    <composite-jackson.version>2.13</composite-jackson.version>
+    <lombok.version>1.18.16</lombok.version>
+
+    <!-- plugin version -->
+    <tiles-maven-plugin.version>2.18</tiles-maven-plugin.version>
+  </properties>
+
+
+</project>
