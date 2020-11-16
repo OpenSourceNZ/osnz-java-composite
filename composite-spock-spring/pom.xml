@@ -19,7 +19,7 @@
 
   <properties>
     <groovy-all.version>3.0.6</groovy-all.version>
-    <spock-core.version>2.0-M3-groovy-3.0</spock-core.version>
+    <spock-core.version>2.0-M4-groovy-3.0</spock-core.version>
   </properties>
 
   <dependencies>
