@@ -10,7 +10,7 @@
 
 	<groupId>nz.net.osnz.composite</groupId>
 	<artifactId>composite-jetty</artifactId>
-	<version>3.15-SNAPSHOT</version>
+	<version>3.15</version>
 	<packaging>jar</packaging>
 
 	<name>composite-jetty</name>
@@ -66,7 +66,7 @@
     <url>https://github.com/OpenSourceNZ/osnz-java-composite</url>
     <connection>scm:git:git@github.com/OpenSourceNZ/osnz-java-composite.git</connection>
     <developerConnection>scm:git:git@github.com:OpenSourceNZ/osnz-java-composite.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>composite-jetty-3.15</tag>
   </scm>
 
   <build>
