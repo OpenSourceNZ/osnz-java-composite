@@ -15,12 +15,10 @@
   <description>Collection of the standard spring boot Jetty dependencies</description>
 
   <dependencies>
-
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-jetty</artifactId>
       <version>[${spring-boot.version}]</version>
     </dependency>
-
   </dependencies>
 </project>

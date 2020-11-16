@@ -18,8 +18,8 @@
     <url>https://github.com/OpenSourceNZ/composite-logging-log4j2</url>
 
     <properties>
-        <log4j.version>2.13.3</log4j.version>
-        <lmax.disruptor>3.4.2</lmax.disruptor>
+        <log4j.version>2.14.0</log4j.version>
+        <disruptor.version>3.4.2</disruptor.version>
     </properties>
 
     <dependencies>
@@ -58,7 +58,7 @@
         <dependency>
             <groupId>com.lmax</groupId>
             <artifactId>disruptor</artifactId>
-            <version>[${lmax.disruptor}]</version>
+            <version>[${disruptor.version}]</version>
         </dependency>
     </dependencies>
     <scm>

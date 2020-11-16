@@ -19,6 +19,12 @@
       <groupId>nz.net.osnz.composite</groupId>
       <artifactId>composite-spring-boot-web</artifactId>
       <version>[${project.version}]</version>
+      <exclusions>
+        <exclusion>
+          <groupId>nz.net.osnz.composite</groupId>
+          <artifactId>composite-spring-webmvc</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>nz.net.osnz.composite</groupId>
