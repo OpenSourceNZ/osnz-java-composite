@@ -10,7 +10,7 @@
 
   <groupId>nz.net.osnz.composite</groupId>
   <artifactId>composite-netty</artifactId>
-  <version>1.4-SNAPSHOT</version>
+  <version>1.4</version>
   <packaging>jar</packaging>
   <name>composite-netty</name>
   <description>composite-netty</description>
@@ -31,7 +31,7 @@
     <url>https://github.com/OpenSourceNZ/osnz-java-composite</url>
     <connection>scm:git:git@github.com/OpenSourceNZ/osnz-java-composite.git</connection>
     <developerConnection>scm:git:git@github.com:OpenSourceNZ/osnz-java-composite.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>composite-netty-1.4</tag>
   </scm>
 
   <build>
