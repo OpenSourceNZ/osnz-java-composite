@@ -24,17 +24,17 @@
     <dependency>
       <groupId>nz.net.osnz.composite</groupId>
       <artifactId>composite-spring-boot-web</artifactId>
-      <version>[${composite-spring.version}]</version>
+      <version>${composite-spring.version}</version>
     </dependency>
     <dependency>
       <groupId>nz.net.osnz.composite</groupId>
       <artifactId>composite-spring-boot-undertow</artifactId>
-      <version>[${composite-spring.version}]</version>
+      <version>${composite-spring.version}</version>
     </dependency>
     <dependency>
       <groupId>nz.net.osnz.composite</groupId>
       <artifactId>composite-spring-boot-log4j2</artifactId>
-      <version>[${composite-spring.version}]</version>
+      <version>${composite-spring.version}</version>
     </dependency>
 
     <!-- jackson dependencies -->
@@ -53,7 +53,7 @@
     <dependency>
       <groupId>nz.net.osnz.composite</groupId>
       <artifactId>composite-spring-boot-test</artifactId>
-      <version>[${composite-spring.version}]</version>
+      <version>${composite-spring.version}</version>
       <scope>test</scope>
     </dependency>
 
@@ -61,7 +61,7 @@
     <dependency>
       <groupId>nz.net.osnz.composite</groupId>
       <artifactId>composite-spring-boot-devtools</artifactId>
-      <version>[${composite-spring.version}]</version>
+      <version>${composite-spring.version}</version>
       <optional>true</optional>
     </dependency>
 
