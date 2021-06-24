@@ -15,7 +15,7 @@
 
   <properties>
     <java.version>1.8</java.version>
-    <groovy-all.version>3.0.6</groovy-all.version>
+    <groovy-all.version>3.0.8</groovy-all.version>
   </properties>
 
   <name>composite-groovy</name>
