@@ -4,12 +4,12 @@
   <parent>
     <groupId>nz.net.osnz.composite</groupId>
     <artifactId>composite-spring-parent</artifactId>
-    <version>6.1.1</version>
+    <version>6.1.2-SNAPSHOT</version>
     <relativePath>../composite-spring-parent</relativePath>
   </parent>
 
   <artifactId>composite-spring-data-jpa</artifactId>
-  <version>6.1.1</version>
+  <version>6.1.2-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>composite-spring-data-jpa</name>
   <description>Collection of the standard spring data JPA dependencies</description>
