@@ -10,7 +10,7 @@
 
   <groupId>nz.net.osnz.composite</groupId>
   <artifactId>composite-groovy</artifactId>
-  <version>6.7</version>
+  <version>6.8-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <properties>
@@ -76,7 +76,7 @@
     <url>https://github.com/OpenSourceNZ/osnz-java-composite</url>
     <connection>scm:git:git@github.com/OpenSourceNZ/osnz-java-composite.git</connection>
     <developerConnection>scm:git:git@github.com:OpenSourceNZ/osnz-java-composite.git</developerConnection>
-    <tag>composite-groovy-6.7</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <build>
