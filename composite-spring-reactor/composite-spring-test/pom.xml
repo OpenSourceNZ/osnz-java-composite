@@ -4,12 +4,12 @@
   <parent>
     <groupId>nz.net.osnz.composite</groupId>
     <artifactId>composite-spring-parent</artifactId>
-    <version>6.1.1-SNAPSHOT</version>
+    <version>6.1.1</version>
     <relativePath>../composite-spring-parent</relativePath>
   </parent>
 
   <artifactId>composite-spring-test</artifactId>
-  <version>6.1.1-SNAPSHOT</version>
+  <version>6.1.1</version>
   <packaging>jar</packaging>
   <name>composite-spring-test</name>
   <description>Collection of the standard spring Test dependencies</description>
